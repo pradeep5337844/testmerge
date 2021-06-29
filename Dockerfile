@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:16.04
 MAINTAINER Pradeep <rakshithapapu7@gmail.com>
 RUN apt-get update -y
 RUN apt-get install nginx -y
