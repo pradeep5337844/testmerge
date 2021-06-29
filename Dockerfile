@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Pradeep <rakshithapapu7@gmail.com>
+MAINTAINER arun <rakshithapapu7@gmail.com>
 RUN apt-get update -y
 RUN apt-get install nginx -y
 COPY index.html /var/www/html/
