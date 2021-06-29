@@ -1,4 +1,4 @@
-FROM ubuntu:2.0
+FROM ubuntu:18.04
 MAINTAINER Raksha <rakshithapapu7@gmail.com>
 RUN apt-get update -y
 RUN apt-get install nginx -y
