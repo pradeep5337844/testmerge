@@ -1,6 +1,5 @@
 FROM ubuntu:21.04
 MAINTAINER Pradeep <rakshithapapu7@gmail.com>
-RUN apt-get update -y
 RUN apt-get install nginx -y
 COPY index.html /var/www/html/
 COPY bootstrap.css /var/www/html/
